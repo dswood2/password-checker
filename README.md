@@ -21,13 +21,13 @@ The Password Checker is a Python script that allows you to check if your passwor
 2. (Optional) Create a file named `checkList.txt` in the same directory as the script and enter the passwords you want to check, one per line.
 
 3. Run the script using the following command:
-- python password_checker.py
+  - python password_checker.py
 
 4. Choose an option from the menu:
-- Option 1: Check passwords from the `checkList.txt` file
-- Option 2: Enter passwords manually
-- Option 3: Check password strength
-- Option 4: Quit the program
+  - Option 1: Check passwords from the `checkList.txt` file
+  - Option 2: Enter passwords manually
+  - Option 3: Check password strength
+  - Option 4: Quit the program
 
 5. If you choose option 1, the script will read the passwords from the `checkList.txt` file and check each password against the Have I Been Pwned API. It will display the results indicating if the password has been compromised and the number of times it was found in breaches.
 
